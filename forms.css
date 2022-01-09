@@ -1,0 +1,199 @@
+
+	
+form{
+	margin: 100px;
+	padding:20px;
+	
+}
+input{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+
+}	
+.formstyle{
+	background-color: pink;
+	border: solid 20px;
+	border-radius:50px;
+	padding:50px;
+	font-size: 25px
+	
+}
+#fname{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#lname{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#DOB{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#abtime{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#Bdaydate-time{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#pwd{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#Arts{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#Engineering{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#Science{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#medical{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#color{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#mailid{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#bdaymonth{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#myfile{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+	color:white;
+	background-color:Gray;
+}
+#age{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#week{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#url{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#Gsearch{
+	padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#phone{
+    padding:5px;
+	border-color: blue;
+	border-radius: 10px;
+    font-size: 25px;
+	font-family:Times new Roman;
+}
+#Arts{
+	color:green;
+	width:20px;
+	height:20px;
+}
+#Science{
+	color:green;
+	width:20px;
+	height:20px;
+}
+#Engg{
+color:green;
+	width:20px;
+	height:20px;
+}
+#Med{
+	color:green;
+	width:20px;
+	height:20px;
+}
+#Exam{
+	color:green;
+	width:20px;
+	height:20px;
+}
+#IT{
+	color:green;
+	width:20px;
+	height:20px;
+}
+#Bank{
+	color:green;
+	width:20px;
+	height:20px;
+}
+#others{
+	color:green;
+	width:20px;
+	height:20px;
+}

@@ -1,0 +1,23 @@
+p::first-letter{
+	color:#ff0000;
+	font-size: xx-large;
+}
+p::first-line{
+	color:#0000ff;
+	font-size: xx-large;
+}
+h2::after{
+ content: "***";
+}
+h2::before{
+	content:"***";
+}
+::marker{
+	color:red;
+	font-size:30px;
+}
+p::selection{
+	color: red;
+	background-color:yellow;
+}
+

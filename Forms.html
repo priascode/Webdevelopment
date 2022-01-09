@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" href="forms.css">
+	</head>
+	<body>
+		<form>
+			<div class ="formstyle">
+				<h1 style="text-align:center;background-color:red;color:white;">PERSONAL DETAILS</H1>
+				<!-- Input type 'text'is used to type the text,numbers,characters etc.. -->
+				<label for="fname">1.Firstname:</label><br>
+				<input type="text"  id="fname" value="priya" spellcheck="true" required><br>
+				<label for="lname">2.Lastname :</label><br>
+				<input type="text" id="lname" value="Dharshini" required><br>
+				<label for="DOB">3.Date of Birth:</label><br>
+				<input type="date" id="DOB" required><br>
+				<label  for="abtime" >4.Select your time of birth</label><br>
+				<input type ="Time" id="abtime" required><br>
+				<label for="Bdaydate-time">5.Birthday time:</label><br>
+				<input type="datetime-local" id="Bdaydate-time" ><br>
+				<label for="pwd" >6.Enter your password:</label><br>
+				<input type="password" id="pwd" name="pwd"><br>
+				<!-- Radio buttons -->
+				<p>7.Select your course of study</p>
+				<input type="radio" id="Arts" name="fav_fields" value="Arts" >
+				<label for="Arts">Arts</label><br>
+				<input type="radio" id="Science" name="fav_fields" value="Science"> 
+				<label for="Science">Science</label><br>
+				<input type="radio" id="Engg" name="fav_fields" value="Engineering"  >
+				<label for="Engg">Engineering</label><br>
+				<input type="radio" id="Med" name="fav_fields" value="Medical"  >
+				<label for="Med">Medical</label><br>
+				<!-- Check box -->
+				<p>8.which you are preparing for?</p>
+				<input type="checkbox" id="Exam" name="profession1" value="Competitive Exams">
+				<label for="Exam">Competitive Exams</label><br>
+				<input type="checkbox" id="IT" name="profession2" value="IT Sector">
+				<label for="It">IT Sector</label><br>
+				<input type="checkbox" id="Bank" name="profession3" value="Bank Sector">
+				<label for="Bank">Bank Sector</label><br>
+				<input type="checkbox" id="others" name="profession4" value="others">
+				<label for="others">Other Sectors</label><br>
+				<label for="color">9.choose your favorite color:</label>
+				<input type="color" id="color"  name="favcolor"><br>
+				<label for = "mailid" >10.Enter your mailid:</label><br>
+				<input type="email" id = "mailid" required><br>
+				<label for="myfile" >11.Select a file</label><br>
+				<input type="file" id="myfile"  name="choose"><br>
+				<label for="bdaymonth" >12.Birthday (month and year)</label><br>
+				<input type = "month" id = "bdaymonth" name="bdaymonth"><br>
+				<label for="week" >13.Select current week</label><br>
+				<input type = "week" id="week" name="week"><br>
+				<label for = "age" >14.Enter your age range (0 to 100)</label><br>
+				<input type="number" id="age" name="Age" min="0" max="100"  step="10"><br>
+				<label for = "Gsearch" >15.Search Google:</label><br>
+				<input type="search" id="Gsearch" name="Gsearch" placeholder="Type what you want..."><br>
+				<label for ="phone">16.Enter your Phone number:</label><br>
+				<input type="tel" id="phone" name="phone" placeholder="123-345-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+				<!-- Submit --> 
+				<input type="submit" value="submit" style="font-size: 30px;padding:5px;border:solid 1px;border-radius:2px">
+				<!-- Reset -->
+				<input type="reset" value="Reset"  style="font-size: 30px;padding:5px;border:solid 1px; border-radius:2px">
+			</div>
+       
+        
+        
+		</form>
+	</body>
+</html>

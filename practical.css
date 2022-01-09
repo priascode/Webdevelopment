@@ -1,0 +1,75 @@
+	*{
+	margin:10px;
+	background-color:lightgreen;
+	}
+	li{
+	background-color:brown;
+	padding:10px;
+	}
+	h3 + h4{
+	background-color:Green;/*adjacent sibling selectors(+): selects all the <h4> elements after <h3>  */
+	font:italic;
+	color: white;
+	}
+	ul > li{
+	background-color:yellow;/*child Selector(>)selects all <li> elements that are children of a <ul> element:*/
+	}
+	marquee h2    /*Descendant Selector : selects all <h2> elements inside <marquee> elements: */
+	{
+	background-color:blue;
+	color:white;
+	padding:20px;
+	}
+	th
+	{
+	border: solid 2px;
+	padding:10px;
+	border-collapse:collapse;
+	margin-left: 300px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px
+	}
+	
+	td
+	{
+	background-color:gray;
+	padding:10px;
+	border: solid 2px;
+	border-collapse:collapse;
+	margin-left: 300px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px
+	}
+	table
+	{
+	border: solid 2px;
+	border-collapse:collapse;
+	margin-left: 300px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px
+	}
+
+	label~input       /* general sibling selectors here selects all <input> elements that are next siblings of <label> elements are selected*/
+	{
+		background-color: yellow;
+		border-radius:7px;
+	}
+	.forms
+	{
+		border: solid 10px;
+		border-radius:20px;
+		border-color:violet;
+		color: blue;
+		padding:50px;
+		width: 300px;
+		height: 350px;
+		padding: 20px;
+		margin-top: 20px;
+		margin-left: 300px;
+		margin-right: 300px;
+		margin-bottom: 20px;
+}
+	}
