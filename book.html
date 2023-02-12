@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ebooksite</title>
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <link rel="stylesheet" href="book.css" type="text/css">
+    </head>
+    <body>
+        <div class="banner">
+         <div class="navbar">
+            <h1 id="title">EB00KSITE</h1>
+         ]
+                <ul id="menu-item">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">what's inside</a></li>
+                    <li><a href="#">Genre</a></li>
+                    <li><a href="#">about author</a></li>
+                </ul>
+                <img src="menu.png" class="menu-icon" onclick="togglemenu()">
+           </div>
+          
+         <div class="content">
+            <h1>LEARN HERE ANYTIME ANYWHERE</h1>
+            <p>Best Landing page to explore more in your interest with lots of ebooks available<br> enjoy reading with us!</p>
+            <button type="button">BUY NOW</button>
+            <button type="button">EXPLORE</button>
+         </div>
+        </div>
+        <script>
+            var menuitem = document.getElementById("menu-item");
+            menuitem.style.maxHeight="0px";
+            function togglemenu(){
+                if(  menuitem.style.maxHeight=="0px"){
+                    menuitem.style.maxHeight="130px";
+                }
+                else{
+                    menuitem.style.maxHeight="0px";
+                }
+                   
+            }
+             
+        </script>
+          
+    </body>
+</html>
